@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="SPC" translatesAutoresizingMaskIntoConstraints="NO" id="QV9-31-mN9">
+                                <rect key="frame" x="112" y="172" width="170" height="235"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="235" id="7XI-aP-JUe"/>
+                                    <constraint firstAttribute="width" constant="170" id="EAp-NZ-vqH"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="iOE-T1-RwL">
+                                <rect key="frame" x="326" y="212" width="189" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="189" id="I1x-Q9-ZPK"/>
+                                    <constraint firstAttribute="height" constant="155" id="vTu-4w-qBp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QV9-31-mN9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="-98" id="2uK-ty-Qa0"/>
+                            <constraint firstItem="iOE-T1-RwL" firstAttribute="centerY" secondItem="QV9-31-mN9" secondAttribute="centerY" id="Lao-Dc-Uhz"/>
+                            <constraint firstItem="iOE-T1-RwL" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="aER-5d-FRS"/>
+                            <constraint firstItem="iOE-T1-RwL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="98" id="gSE-8O-HNh"/>
+                            <constraint firstItem="QV9-31-mN9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="iaa-At-VLn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SPC" width="592" height="725"/>
+        <image name="logo" width="1535" height="1535"/>
+    </resources>
+</document>

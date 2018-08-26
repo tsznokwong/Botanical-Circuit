@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "f63c6a3939d4e9d96120707842bbab9d"
+build_time: [524215626, 212825000]
+inputs:
+  "/Users/tsznok/programming/swift/Botanical Circuit/Botanical Circuit/XylemScene.swift": [524215316, 0]
+  "/Users/tsznok/programming/swift/Botanical Circuit/Botanical Circuit/GameViewController.swift": [524215625, 0]
+  "/Users/tsznok/programming/swift/Botanical Circuit/Botanical Circuit/AppDelegate.swift": [520132774, 0]
+  "/Users/tsznok/programming/swift/Botanical Circuit/Botanical Circuit/Extension.swift": [524159033, 0]

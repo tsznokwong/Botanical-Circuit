@@ -1,0 +1,498 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "degreeToRadian"
+- "radianToDegree"
+- "distanceFromTwoPoints"
+- "square"
+- "angleOfThreePoints"
+- "vectorPoints"
+- "negativePoints"
+- "Color"
+- "Button"
+provides-nominal:
+- "C17Botanical_Circuit6Button"
+provides-member:
+- ["V12CoreGraphics7CGFloat", ""]
+- ["C17Botanical_Circuit6Button", ""]
+- ["V12CoreGraphics7CGFloat", "random"]
+- ["V12CoreGraphics7CGFloat", "random"]
+- ["V12CoreGraphics7CGFloat", "roundToPlaces"]
+provides-dynamic-lookup:
+- "fadeEffect"
+- "unFadeEffect"
+depends-top-level:
+- "angleOfThreePoints"
+- !private "SKAction"
+- "degreeToRadian"
+- !private "-"
+- !private "round"
+- "CGPoint"
+- "vectorPoints"
+- "distanceFromTwoPoints"
+- "Button"
+- "radianToDegree"
+- "CGFloat"
+- "NSCoder"
+- "Int"
+- !private "M_PI"
+- "square"
+- !private "fatalError"
+- "Color"
+- !private "sqrt"
+- !private "arc4random"
+- !private "/"
+- !private "pow"
+- "SKSpriteNode"
+- !private "Float"
+- !private "SKTexture"
+- "UIColor"
+- "String"
+- "negativePoints"
+- !private "StringLiteralType"
+- !private "*"
+- !private "acos"
+- !private "+"
+- !private "CGSize"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "CGFloat"]
+- !private ["Ps16AbsoluteValuable", "Float"]
+- !private ["Ps16AbsoluteValuable", "IntegerLiteralType"]
+- !private ["Ps16AbsoluteValuable", "Stride"]
+- !private ["Ps16AbsoluteValuable", "arc4random"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps16AbsoluteValuable", "pow"]
+- !private ["Ps16AbsoluteValuable", "random"]
+- !private ["Ps16AbsoluteValuable", "round"]
+- !private ["Ps9AnyObject", "CGSize"]
+- !private ["Ps9AnyObject", "SKAction"]
+- !private ["Ps9AnyObject", "SKTexture"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "fadeAlphaTo"]
+- ["Ps9AnyObject", "fadeEffect"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "runAction"]
+- !private ["Ps9AnyObject", "scaleTo"]
+- ["Ps9AnyObject", "unFadeEffect"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps22BidirectionalIndexType", "Stride"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Stride"]
+- !private ["C17Botanical_Circuit6Button", "CGSize"]
+- ["C17Botanical_Circuit6Button", "NSCoder"]
+- !private ["C17Botanical_Circuit6Button", "SKAction"]
+- !private ["C17Botanical_Circuit6Button", "SKTexture"]
+- ["C17Botanical_Circuit6Button", "String"]
+- !private ["C17Botanical_Circuit6Button", "UIColor"]
+- ["C17Botanical_Circuit6Button", "deinit"]
+- ["C17Botanical_Circuit6Button", "fadeEffect"]
+- !private ["C17Botanical_Circuit6Button", "fatalError"]
+- ["C17Botanical_Circuit6Button", "init"]
+- !private ["C17Botanical_Circuit6Button", "runAction"]
+- ["C17Botanical_Circuit6Button", "unFadeEffect"]
+- ["V12CoreGraphics7CGFloat", "CGFloat"]
+- !private ["V12CoreGraphics7CGFloat", "Float"]
+- ["V12CoreGraphics7CGFloat", "Int"]
+- !private ["V12CoreGraphics7CGFloat", "arc4random"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["V12CoreGraphics7CGFloat", "pow"]
+- ["V12CoreGraphics7CGFloat", "random"]
+- !private ["V12CoreGraphics7CGFloat", "round"]
+- ["V12CoreGraphics7CGFloat", "roundToPlaces"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGSize", "init"]
+- !private ["Ps11CVarArgType", "CGFloat"]
+- !private ["Ps11CVarArgType", "CGSize"]
+- !private ["Ps11CVarArgType", "Float"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "SKAction"]
+- !private ["Ps11CVarArgType", "SKTexture"]
+- !private ["Ps11CVarArgType", "Stride"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "arc4random"]
+- !private ["Ps11CVarArgType", "fadeAlphaTo"]
+- ["Ps11CVarArgType", "fadeEffect"]
+- !private ["Ps11CVarArgType", "fatalError"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "pow"]
+- !private ["Ps11CVarArgType", "random"]
+- !private ["Ps11CVarArgType", "round"]
+- !private ["Ps11CVarArgType", "runAction"]
+- !private ["Ps11CVarArgType", "scaleTo"]
+- ["Ps11CVarArgType", "unFadeEffect"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "CGFloat"]
+- !private ["Ps10Comparable", "Float"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "arc4random"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "pow"]
+- !private ["Ps10Comparable", "random"]
+- !private ["Ps10Comparable", "round"]
+- !private ["Ps28CustomDebugStringConvertible", "CGSize"]
+- !private ["Ps28CustomDebugStringConvertible", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "SKAction"]
+- !private ["Ps28CustomDebugStringConvertible", "SKTexture"]
+- !private ["Ps28CustomDebugStringConvertible", "Stride"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "fadeAlphaTo"]
+- ["Ps28CustomDebugStringConvertible", "fadeEffect"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "runAction"]
+- !private ["Ps28CustomDebugStringConvertible", "scaleTo"]
+- ["Ps28CustomDebugStringConvertible", "unFadeEffect"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGSize"]
+- !private ["Ps23CustomStringConvertible", "Float"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SKAction"]
+- !private ["Ps23CustomStringConvertible", "SKTexture"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "arc4random"]
+- !private ["Ps23CustomStringConvertible", "fadeAlphaTo"]
+- ["Ps23CustomStringConvertible", "fadeEffect"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "pow"]
+- !private ["Ps23CustomStringConvertible", "random"]
+- !private ["Ps23CustomStringConvertible", "round"]
+- !private ["Ps23CustomStringConvertible", "runAction"]
+- !private ["Ps23CustomStringConvertible", "scaleTo"]
+- ["Ps23CustomStringConvertible", "unFadeEffect"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "IntegerLiteralType"]
+- !private ["Sd", "Stride"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGSize"]
+- !private ["Ps9Equatable", "Float"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "SKAction"]
+- !private ["Ps9Equatable", "SKTexture"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "arc4random"]
+- !private ["Ps9Equatable", "fadeAlphaTo"]
+- ["Ps9Equatable", "fadeEffect"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "pow"]
+- !private ["Ps9Equatable", "random"]
+- !private ["Ps9Equatable", "round"]
+- !private ["Ps9Equatable", "runAction"]
+- !private ["Ps9Equatable", "scaleTo"]
+- ["Ps9Equatable", "unFadeEffect"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Sf", "init"]
+- !private ["Ps23FloatLiteralConvertible", "CGFloat"]
+- !private ["Ps23FloatLiteralConvertible", "Float"]
+- !private ["Ps23FloatLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps23FloatLiteralConvertible", "Stride"]
+- !private ["Ps23FloatLiteralConvertible", "arc4random"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps23FloatLiteralConvertible", "pow"]
+- !private ["Ps23FloatLiteralConvertible", "random"]
+- !private ["Ps23FloatLiteralConvertible", "round"]
+- !private ["Ps17FloatingPointType", "CGFloat"]
+- !private ["Ps17FloatingPointType", "Float"]
+- !private ["Ps17FloatingPointType", "IntegerLiteralType"]
+- !private ["Ps17FloatingPointType", "Stride"]
+- !private ["Ps17FloatingPointType", "arc4random"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps17FloatingPointType", "pow"]
+- !private ["Ps17FloatingPointType", "random"]
+- !private ["Ps17FloatingPointType", "round"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "Stride"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGSize"]
+- !private ["Ps8Hashable", "Float"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "SKAction"]
+- !private ["Ps8Hashable", "SKTexture"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "arc4random"]
+- !private ["Ps8Hashable", "fadeAlphaTo"]
+- ["Ps8Hashable", "fadeEffect"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "pow"]
+- !private ["Ps8Hashable", "random"]
+- !private ["Ps8Hashable", "round"]
+- !private ["Ps8Hashable", "runAction"]
+- !private ["Ps8Hashable", "scaleTo"]
+- ["Ps8Hashable", "unFadeEffect"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Stride"]
+- !private ["Ps25IntegerLiteralConvertible", "CGFloat"]
+- !private ["Ps25IntegerLiteralConvertible", "Float"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Stride"]
+- !private ["Ps25IntegerLiteralConvertible", "arc4random"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "pow"]
+- !private ["Ps25IntegerLiteralConvertible", "random"]
+- !private ["Ps25IntegerLiteralConvertible", "round"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Stride"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Stride"]
+- !private ["PSo8NSCoding", "CGSize"]
+- !private ["PSo8NSCoding", "SKAction"]
+- !private ["PSo8NSCoding", "SKTexture"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "fadeAlphaTo"]
+- ["PSo8NSCoding", "fadeEffect"]
+- !private ["PSo8NSCoding", "fatalError"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "runAction"]
+- !private ["PSo8NSCoding", "scaleTo"]
+- ["PSo8NSCoding", "unFadeEffect"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "CGSize"]
+- !private ["PSo9NSCopying", "SKAction"]
+- !private ["PSo9NSCopying", "SKTexture"]
+- !private ["PSo9NSCopying", "UIColor"]
+- !private ["PSo9NSCopying", "fadeAlphaTo"]
+- ["PSo9NSCopying", "fadeEffect"]
+- !private ["PSo9NSCopying", "fatalError"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "runAction"]
+- !private ["PSo9NSCopying", "scaleTo"]
+- ["PSo9NSCopying", "unFadeEffect"]
+- ["PSo9NSCopying", ""]
+- !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "CGSize"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "SKAction"]
+- !private ["CSo8NSObject", "SKTexture"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "fadeAlphaTo"]
+- ["CSo8NSObject", "fadeEffect"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "runAction"]
+- !private ["CSo8NSObject", "scaleTo"]
+- ["CSo8NSObject", "unFadeEffect"]
+- !private ["PSo16NSObjectProtocol", "CGSize"]
+- !private ["PSo16NSObjectProtocol", "SKAction"]
+- !private ["PSo16NSObjectProtocol", "SKTexture"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "fadeAlphaTo"]
+- ["PSo16NSObjectProtocol", "fadeEffect"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "runAction"]
+- !private ["PSo16NSObjectProtocol", "scaleTo"]
+- ["PSo16NSObjectProtocol", "unFadeEffect"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps21RandomAccessIndexType", "Stride"]
+- !private ["CSo8SKAction", "fadeAlphaTo"]
+- !private ["CSo8SKAction", "scaleTo"]
+- !private ["CSo6SKNode", "CGSize"]
+- ["CSo6SKNode", "NSCoder"]
+- !private ["CSo6SKNode", "SKAction"]
+- !private ["CSo6SKNode", "SKTexture"]
+- ["CSo6SKNode", "String"]
+- !private ["CSo6SKNode", "UIColor"]
+- ["CSo6SKNode", "fadeEffect"]
+- !private ["CSo6SKNode", "fatalError"]
+- ["CSo6SKNode", "init"]
+- !private ["CSo6SKNode", "runAction"]
+- ["CSo6SKNode", "unFadeEffect"]
+- !private ["CSo12SKSpriteNode", "CGSize"]
+- ["CSo12SKSpriteNode", "NSCoder"]
+- !private ["CSo12SKSpriteNode", "SKAction"]
+- !private ["CSo12SKSpriteNode", "SKTexture"]
+- ["CSo12SKSpriteNode", "String"]
+- !private ["CSo12SKSpriteNode", "UIColor"]
+- ["CSo12SKSpriteNode", "fadeEffect"]
+- !private ["CSo12SKSpriteNode", "fatalError"]
+- ["CSo12SKSpriteNode", "init"]
+- !private ["CSo12SKSpriteNode", "runAction"]
+- ["CSo12SKSpriteNode", "unFadeEffect"]
+- ["CSo12SKSpriteNode", ""]
+- !private ["CSo9SKTexture", "init"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps17SignedIntegerType", "Stride"]
+- !private ["Ps16SignedNumberType", "CGFloat"]
+- !private ["Ps16SignedNumberType", "Float"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Stride"]
+- !private ["Ps16SignedNumberType", "arc4random"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps16SignedNumberType", "pow"]
+- !private ["Ps16SignedNumberType", "random"]
+- !private ["Ps16SignedNumberType", "round"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Strideable", "CGFloat"]
+- !private ["Ps10Strideable", "Float"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "arc4random"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "pow"]
+- !private ["Ps10Strideable", "random"]
+- !private ["Ps10Strideable", "round"]
+- !private ["CSo7UIColor", "init"]
+- !private ["CSo11UIResponder", "CGSize"]
+- ["CSo11UIResponder", "NSCoder"]
+- !private ["CSo11UIResponder", "SKAction"]
+- !private ["CSo11UIResponder", "SKTexture"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "fadeEffect"]
+- !private ["CSo11UIResponder", "fatalError"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "runAction"]
+- ["CSo11UIResponder", "unFadeEffect"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "Stride"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Stride"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "CGFloat"]
+- !private ["Ps19_CVarArgAlignedType", "Float"]
+- !private ["Ps19_CVarArgAlignedType", "IntegerLiteralType"]
+- !private ["Ps19_CVarArgAlignedType", "Stride"]
+- !private ["Ps19_CVarArgAlignedType", "arc4random"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps19_CVarArgAlignedType", "pow"]
+- !private ["Ps19_CVarArgAlignedType", "random"]
+- !private ["Ps19_CVarArgAlignedType", "round"]
+- !private ["Ps22_CVarArgPassedAsDouble", "CGFloat"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Float"]
+- !private ["Ps22_CVarArgPassedAsDouble", "IntegerLiteralType"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Stride"]
+- !private ["Ps22_CVarArgPassedAsDouble", "arc4random"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "pow"]
+- !private ["Ps22_CVarArgPassedAsDouble", "random"]
+- !private ["Ps22_CVarArgPassedAsDouble", "round"]
+- !private ["Ps24_ColorLiteralConvertible", "init"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Stride"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "CGFloat"]
+- !private ["Ps21_ObjectiveCBridgeable", "Float"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "arc4random"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "pow"]
+- !private ["Ps21_ObjectiveCBridgeable", "random"]
+- !private ["Ps21_ObjectiveCBridgeable", "round"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "Stride"]
+- !private ["Ps12_Reflectable", "CGFloat"]
+- !private ["Ps12_Reflectable", "CGSize"]
+- !private ["Ps12_Reflectable", "Float"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "SKAction"]
+- !private ["Ps12_Reflectable", "SKTexture"]
+- !private ["Ps12_Reflectable", "Stride"]
+- !private ["Ps12_Reflectable", "UIColor"]
+- !private ["Ps12_Reflectable", "arc4random"]
+- ["Ps12_Reflectable", "fadeEffect"]
+- !private ["Ps12_Reflectable", "fatalError"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "pow"]
+- !private ["Ps12_Reflectable", "random"]
+- !private ["Ps12_Reflectable", "round"]
+- !private ["Ps12_Reflectable", "runAction"]
+- ["Ps12_Reflectable", "unFadeEffect"]
+- !private ["Ps12_Reflectable", "x"]
+- !private ["Ps12_Reflectable", "y"]
+- ["Ps12_Reflectable", ""]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps18_SignedIntegerType", "Stride"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- "C17Botanical_Circuit6Button"
+- "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC6CGSize"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Sf"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps21RandomAccessIndexType"
+- !private "CSo8SKAction"
+- "CSo6SKNode"
+- "CSo12SKSpriteNode"
+- !private "CSo9SKTexture"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "CSo7UIColor"
+- "CSo11UIResponder"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/simd.swiftmodule"
+interface-hash: "fa937feb18192fd5e19cc89652b17b08"

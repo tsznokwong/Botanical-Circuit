@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473A1BF81D4B460200D42449 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A1BF71D4B460200D42449 /* Extension.swift */; };
+		47570B681D1E13A6000CEE62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47570B671D1E13A6000CEE62 /* AppDelegate.swift */; };
+		47570B6A1D1E13A6000CEE62 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 47570B691D1E13A6000CEE62 /* GameScene.sks */; };
+		47570B6C1D1E13A6000CEE62 /* XylemScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47570B6B1D1E13A6000CEE62 /* XylemScene.swift */; };
+		47570B6E1D1E13A6000CEE62 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47570B6D1D1E13A6000CEE62 /* GameViewController.swift */; };
+		47570B711D1E13A6000CEE62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47570B6F1D1E13A6000CEE62 /* Main.storyboard */; };
+		47570B731D1E13A6000CEE62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47570B721D1E13A6000CEE62 /* Assets.xcassets */; };
+		47570B761D1E13A6000CEE62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47570B741D1E13A6000CEE62 /* LaunchScreen.storyboard */; };
+		47570B811D1E13A6000CEE62 /* Botanical_CircuitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47570B801D1E13A6000CEE62 /* Botanical_CircuitTests.swift */; };
+		47570B8C1D1E13A6000CEE62 /* Botanical_CircuitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47570B8B1D1E13A6000CEE62 /* Botanical_CircuitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47570B7D1D1E13A6000CEE62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47570B5C1D1E13A6000CEE62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47570B631D1E13A6000CEE62;
+			remoteInfo = "Botanical Circuit";
+		};
+		47570B881D1E13A6000CEE62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47570B5C1D1E13A6000CEE62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47570B631D1E13A6000CEE62;
+			remoteInfo = "Botanical Circuit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		473A1BF71D4B460200D42449 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		47570B641D1E13A6000CEE62 /* Botanical Circuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Botanical Circuit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47570B671D1E13A6000CEE62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47570B691D1E13A6000CEE62 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		47570B6B1D1E13A6000CEE62 /* XylemScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylemScene.swift; sourceTree = "<group>"; };
+		47570B6D1D1E13A6000CEE62 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		47570B701D1E13A6000CEE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47570B721D1E13A6000CEE62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47570B751D1E13A6000CEE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47570B771D1E13A6000CEE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47570B7C1D1E13A6000CEE62 /* Botanical CircuitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Botanical CircuitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47570B801D1E13A6000CEE62 /* Botanical_CircuitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Botanical_CircuitTests.swift; sourceTree = "<group>"; };
+		47570B821D1E13A6000CEE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47570B871D1E13A6000CEE62 /* Botanical CircuitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Botanical CircuitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47570B8B1D1E13A6000CEE62 /* Botanical_CircuitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Botanical_CircuitUITests.swift; sourceTree = "<group>"; };
+		47570B8D1D1E13A6000CEE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47570B611D1E13A6000CEE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47570B791D1E13A6000CEE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47570B841D1E13A6000CEE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47570B5B1D1E13A6000CEE62 = {
+			isa = PBXGroup;
+			children = (
+				47570B661D1E13A6000CEE62 /* Botanical Circuit */,
+				47570B7F1D1E13A6000CEE62 /* Botanical CircuitTests */,
+				47570B8A1D1E13A6000CEE62 /* Botanical CircuitUITests */,
+				47570B651D1E13A6000CEE62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47570B651D1E13A6000CEE62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47570B641D1E13A6000CEE62 /* Botanical Circuit.app */,
+				47570B7C1D1E13A6000CEE62 /* Botanical CircuitTests.xctest */,
+				47570B871D1E13A6000CEE62 /* Botanical CircuitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47570B661D1E13A6000CEE62 /* Botanical Circuit */ = {
+			isa = PBXGroup;
+			children = (
+				47570B671D1E13A6000CEE62 /* AppDelegate.swift */,
+				47570B691D1E13A6000CEE62 /* GameScene.sks */,
+				47570B6B1D1E13A6000CEE62 /* XylemScene.swift */,
+				473A1BF71D4B460200D42449 /* Extension.swift */,
+				47570B6D1D1E13A6000CEE62 /* GameViewController.swift */,
+				47570B6F1D1E13A6000CEE62 /* Main.storyboard */,
+				47570B721D1E13A6000CEE62 /* Assets.xcassets */,
+				47570B741D1E13A6000CEE62 /* LaunchScreen.storyboard */,
+				47570B771D1E13A6000CEE62 /* Info.plist */,
+			);
+			path = "Botanical Circuit";
+			sourceTree = "<group>";
+		};
+		47570B7F1D1E13A6000CEE62 /* Botanical CircuitTests */ = {
+			isa = PBXGroup;
+			children = (
+				47570B801D1E13A6000CEE62 /* Botanical_CircuitTests.swift */,
+				47570B821D1E13A6000CEE62 /* Info.plist */,
+			);
+			path = "Botanical CircuitTests";
+			sourceTree = "<group>";
+		};
+		47570B8A1D1E13A6000CEE62 /* Botanical CircuitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47570B8B1D1E13A6000CEE62 /* Botanical_CircuitUITests.swift */,
+				47570B8D1D1E13A6000CEE62 /* Info.plist */,
+			);
+			path = "Botanical CircuitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47570B631D1E13A6000CEE62 /* Botanical Circuit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47570B901D1E13A6000CEE62 /* Build configuration list for PBXNativeTarget "Botanical Circuit" */;
+			buildPhases = (
+				47570B601D1E13A6000CEE62 /* Sources */,
+				47570B611D1E13A6000CEE62 /* Frameworks */,
+				47570B621D1E13A6000CEE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Botanical Circuit";
+			productName = "Botanical Circuit";
+			productReference = 47570B641D1E13A6000CEE62 /* Botanical Circuit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47570B7B1D1E13A6000CEE62 /* Botanical CircuitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47570B931D1E13A6000CEE62 /* Build configuration list for PBXNativeTarget "Botanical CircuitTests" */;
+			buildPhases = (
+				47570B781D1E13A6000CEE62 /* Sources */,
+				47570B791D1E13A6000CEE62 /* Frameworks */,
+				47570B7A1D1E13A6000CEE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47570B7E1D1E13A6000CEE62 /* PBXTargetDependency */,
+			);
+			name = "Botanical CircuitTests";
+			productName = "Botanical CircuitTests";
+			productReference = 47570B7C1D1E13A6000CEE62 /* Botanical CircuitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47570B861D1E13A6000CEE62 /* Botanical CircuitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47570B961D1E13A6000CEE62 /* Build configuration list for PBXNativeTarget "Botanical CircuitUITests" */;
+			buildPhases = (
+				47570B831D1E13A6000CEE62 /* Sources */,
+				47570B841D1E13A6000CEE62 /* Frameworks */,
+				47570B851D1E13A6000CEE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47570B891D1E13A6000CEE62 /* PBXTargetDependency */,
+			);
+			name = "Botanical CircuitUITests";
+			productName = "Botanical CircuitUITests";
+			productReference = 47570B871D1E13A6000CEE62 /* Botanical CircuitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47570B5C1D1E13A6000CEE62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tsznok Wong";
+				TargetAttributes = {
+					47570B631D1E13A6000CEE62 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V4Y7Q6HKKR;
+					};
+					47570B7B1D1E13A6000CEE62 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V4Y7Q6HKKR;
+						TestTargetID = 47570B631D1E13A6000CEE62;
+					};
+					47570B861D1E13A6000CEE62 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V4Y7Q6HKKR;
+						TestTargetID = 47570B631D1E13A6000CEE62;
+					};
+				};
+			};
+			buildConfigurationList = 47570B5F1D1E13A6000CEE62 /* Build configuration list for PBXProject "Botanical Circuit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47570B5B1D1E13A6000CEE62;
+			productRefGroup = 47570B651D1E13A6000CEE62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47570B631D1E13A6000CEE62 /* Botanical Circuit */,
+				47570B7B1D1E13A6000CEE62 /* Botanical CircuitTests */,
+				47570B861D1E13A6000CEE62 /* Botanical CircuitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47570B621D1E13A6000CEE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47570B6A1D1E13A6000CEE62 /* GameScene.sks in Resources */,
+				47570B761D1E13A6000CEE62 /* LaunchScreen.storyboard in Resources */,
+				47570B731D1E13A6000CEE62 /* Assets.xcassets in Resources */,
+				47570B711D1E13A6000CEE62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47570B7A1D1E13A6000CEE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47570B851D1E13A6000CEE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47570B601D1E13A6000CEE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47570B6C1D1E13A6000CEE62 /* XylemScene.swift in Sources */,
+				47570B6E1D1E13A6000CEE62 /* GameViewController.swift in Sources */,
+				47570B681D1E13A6000CEE62 /* AppDelegate.swift in Sources */,
+				473A1BF81D4B460200D42449 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47570B781D1E13A6000CEE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47570B811D1E13A6000CEE62 /* Botanical_CircuitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47570B831D1E13A6000CEE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47570B8C1D1E13A6000CEE62 /* Botanical_CircuitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47570B7E1D1E13A6000CEE62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47570B631D1E13A6000CEE62 /* Botanical Circuit */;
+			targetProxy = 47570B7D1D1E13A6000CEE62 /* PBXContainerItemProxy */;
+		};
+		47570B891D1E13A6000CEE62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47570B631D1E13A6000CEE62 /* Botanical Circuit */;
+			targetProxy = 47570B881D1E13A6000CEE62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47570B6F1D1E13A6000CEE62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47570B701D1E13A6000CEE62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47570B741D1E13A6000CEE62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47570B751D1E13A6000CEE62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47570B8E1D1E13A6000CEE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		47570B8F1D1E13A6000CEE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47570B911D1E13A6000CEE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Botanical Circuit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tsznok.Botanical-Circuit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		47570B921D1E13A6000CEE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Botanical Circuit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tsznok.Botanical-Circuit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		47570B941D1E13A6000CEE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Botanical CircuitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tsznok.Botanical-CircuitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Botanical Circuit.app/Botanical Circuit";
+			};
+			name = Debug;
+		};
+		47570B951D1E13A6000CEE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Botanical CircuitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tsznok.Botanical-CircuitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Botanical Circuit.app/Botanical Circuit";
+			};
+			name = Release;
+		};
+		47570B971D1E13A6000CEE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Botanical CircuitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tsznok.Botanical-CircuitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Botanical Circuit";
+			};
+			name = Debug;
+		};
+		47570B981D1E13A6000CEE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Botanical CircuitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tsznok.Botanical-CircuitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Botanical Circuit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47570B5F1D1E13A6000CEE62 /* Build configuration list for PBXProject "Botanical Circuit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47570B8E1D1E13A6000CEE62 /* Debug */,
+				47570B8F1D1E13A6000CEE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47570B901D1E13A6000CEE62 /* Build configuration list for PBXNativeTarget "Botanical Circuit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47570B911D1E13A6000CEE62 /* Debug */,
+				47570B921D1E13A6000CEE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47570B931D1E13A6000CEE62 /* Build configuration list for PBXNativeTarget "Botanical CircuitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47570B941D1E13A6000CEE62 /* Debug */,
+				47570B951D1E13A6000CEE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47570B961D1E13A6000CEE62 /* Build configuration list for PBXNativeTarget "Botanical CircuitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47570B971D1E13A6000CEE62 /* Debug */,
+				47570B981D1E13A6000CEE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47570B5C1D1E13A6000CEE62 /* Project object */;
+}
