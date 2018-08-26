@@ -15,8 +15,6 @@
 		47570B711D1E13A6000CEE62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47570B6F1D1E13A6000CEE62 /* Main.storyboard */; };
 		47570B731D1E13A6000CEE62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47570B721D1E13A6000CEE62 /* Assets.xcassets */; };
 		47570B761D1E13A6000CEE62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47570B741D1E13A6000CEE62 /* LaunchScreen.storyboard */; };
-		47570B811D1E13A6000CEE62 /* Botanical_CircuitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47570B801D1E13A6000CEE62 /* Botanical_CircuitTests.swift */; };
-		47570B8C1D1E13A6000CEE62 /* Botanical_CircuitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47570B8B1D1E13A6000CEE62 /* Botanical_CircuitUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +46,7 @@
 		47570B751D1E13A6000CEE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47570B771D1E13A6000CEE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47570B7C1D1E13A6000CEE62 /* Botanical CircuitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Botanical CircuitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47570B801D1E13A6000CEE62 /* Botanical_CircuitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Botanical_CircuitTests.swift; sourceTree = "<group>"; };
-		47570B821D1E13A6000CEE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47570B871D1E13A6000CEE62 /* Botanical CircuitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Botanical CircuitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47570B8B1D1E13A6000CEE62 /* Botanical_CircuitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Botanical_CircuitUITests.swift; sourceTree = "<group>"; };
-		47570B8D1D1E13A6000CEE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				47570B661D1E13A6000CEE62 /* Botanical Circuit */,
-				47570B7F1D1E13A6000CEE62 /* Botanical CircuitTests */,
-				47570B8A1D1E13A6000CEE62 /* Botanical CircuitUITests */,
 				47570B651D1E13A6000CEE62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,24 +106,6 @@
 				47570B771D1E13A6000CEE62 /* Info.plist */,
 			);
 			path = "Botanical Circuit";
-			sourceTree = "<group>";
-		};
-		47570B7F1D1E13A6000CEE62 /* Botanical CircuitTests */ = {
-			isa = PBXGroup;
-			children = (
-				47570B801D1E13A6000CEE62 /* Botanical_CircuitTests.swift */,
-				47570B821D1E13A6000CEE62 /* Info.plist */,
-			);
-			path = "Botanical CircuitTests";
-			sourceTree = "<group>";
-		};
-		47570B8A1D1E13A6000CEE62 /* Botanical CircuitUITests */ = {
-			isa = PBXGroup;
-			children = (
-				47570B8B1D1E13A6000CEE62 /* Botanical_CircuitUITests.swift */,
-				47570B8D1D1E13A6000CEE62 /* Info.plist */,
-			);
-			path = "Botanical CircuitUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47570B811D1E13A6000CEE62 /* Botanical_CircuitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47570B8C1D1E13A6000CEE62 /* Botanical_CircuitUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
