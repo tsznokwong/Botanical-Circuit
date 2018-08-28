@@ -14,32 +14,32 @@ public extension CGFloat {
     public static func random() -> CGFloat {
         return CGFloat(Float(arc4random()) / 0xFFFFFFFF)
     }
-    public static func random(min min: CGFloat, max: CGFloat) -> CGFloat {
+    public static func random(min: CGFloat, max: CGFloat) -> CGFloat {
         return CGFloat.random() * (max - min) + min
     }
-    func roundToPlaces(places: Int) -> CGFloat {
+    func roundToPlaces(_ places: Int) -> CGFloat {
         let divisor = pow(10.0, CGFloat(places))
-        return round(self * divisor) / divisor
+        return floor(self * divisor) / divisor
     }
 }
 
 
-func degreeToRadian(degree: CGFloat) -> CGFloat {
-    return degree * CGFloat(M_PI / 180)
+func degreeToRadian(_ degree: CGFloat) -> CGFloat {
+    return degree * CGFloat.pi / 180
 }
 
-func radianToDegree(radian: CGFloat) -> CGFloat {
-    return radian * CGFloat(180 / M_PI)
+func radianToDegree(_ radian: CGFloat) -> CGFloat {
+    return radian * 180 / CGFloat.pi
 }
 
-func distanceFromTwoPoints(a: CGPoint, _ b: CGPoint) -> CGFloat {
+func distanceFromTwoPoints(_ a: CGPoint, _ b: CGPoint) -> CGFloat {
     return sqrt(square(a.x - b.x) + square(a.y - b.y))
 }
 
-func square(x: CGFloat) -> CGFloat {
+func square(_ x: CGFloat) -> CGFloat {
     return x * x
 }
-func angleOfThreePoints(movePoint movePoint: CGPoint, refPoint: CGPoint, atPoint: CGPoint) -> CGFloat {
+func angleOfThreePoints(movePoint: CGPoint, refPoint: CGPoint, atPoint: CGPoint) -> CGFloat {
     let a = distanceFromTwoPoints(movePoint, atPoint)
     let b = distanceFromTwoPoints(refPoint, atPoint)
     let c = distanceFromTwoPoints(movePoint, refPoint)
@@ -58,7 +58,7 @@ func - (lhs: CGPoint, rhs: CGPoint) -> CGPoint {
     return lhs + (-rhs)
 }
 
-func Color(red red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) -> UIColor {
+func Color(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) -> UIColor {
     return UIColor(red: red / 255, green: green / 255, blue: blue / 255, alpha: alpha / 100)
 }
 
@@ -68,12 +68,12 @@ class Button : SKSpriteNode {
     }
     
     func fadeEffect() {
-        self.runAction(SKAction.scaleTo(0.8, duration: 0.1))
-        self.runAction(SKAction.fadeAlphaTo(0.8, duration: 0.1))
+        self.run(SKAction.scale(to: 0.8, duration: 0.1))
+        self.run(SKAction.fadeAlpha(to: 0.8, duration: 0.1))
     }
     func unFadeEffect() {
-        self.runAction(SKAction.scaleTo(1.0, duration: 0.1))
-        self.runAction(SKAction.fadeAlphaTo(1.0, duration: 0.1))
+        self.run(SKAction.scale(to: 1.0, duration: 0.1))
+        self.run(SKAction.fadeAlpha(to: 1.0, duration: 0.1))
     }
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -81,10 +81,10 @@ class Button : SKSpriteNode {
 }
 
 extension XylemScene {
-    override func didMoveToView(view: SKView) {
+    override func didMove(to view: SKView) {
         ViewWidth = self.frame.width
         ViewHeight = self.frame.height
-        self.backgroundColor = UIColor.greenColor()
+        self.backgroundColor = UIColor.green
         freeze = false
         
         //Background
@@ -98,7 +98,7 @@ extension XylemScene {
         
         //Title
         Title.text = "「植」流電 Botanical Circuit"
-        Title.horizontalAlignmentMode = .Center
+        Title.horizontalAlignmentMode = .center
         Title.fontColor = navyBlue
         
         Title.fontSize = ViewWidth * 0.05
@@ -168,12 +168,12 @@ extension XylemScene {
         Xylem.addChild(XylemTopLayer)
         
         //Spawn H2O
-        let spawn = SKAction.runBlock({
+        let spawn = SKAction.run({
             () in
             self.createH2O()
         })
-        let spawnDelay = SKAction.sequence([spawn, SKAction.waitForDuration(0.2)])
-        self.runAction(SKAction.repeatActionForever(spawnDelay))
+        let spawnDelay = SKAction.sequence([spawn, SKAction.wait(forDuration: 0.2)])
+        self.run(SKAction.repeatForever(spawnDelay))
         
         //testTube
         testTube.position = CGPoint(x: ViewWidth / 5 * 3,
@@ -212,8 +212,8 @@ extension XylemScene {
         //Voltmeter Reading
         volt = 0
         voltReading.text = "\(volt)"
-        voltReading.horizontalAlignmentMode = .Right
-        voltReading.fontColor = UIColor.blackColor()
+        voltReading.horizontalAlignmentMode = .right
+        voltReading.fontColor = UIColor.black
         voltReading.fontSize = panel.frame.height / 785 * 120
         voltReading.position = CGPoint(x: panel.position.x + panel.frame.width / 543 * 120,
                                        y: panel.position.y + panel.frame.height / 785 * 220)
@@ -223,8 +223,8 @@ extension XylemScene {
         //ammeter Reading
         amme = 0
         ammeReading.text = "\(amme)"
-        ammeReading.horizontalAlignmentMode = .Right
-        ammeReading.fontColor = UIColor.blackColor()
+        ammeReading.horizontalAlignmentMode = .right
+        ammeReading.fontColor = UIColor.black
         ammeReading.fontSize = panel.frame.height / 785 * 120
         ammeReading.position = CGPoint(x: panel.position.x + panel.frame.width / 543 * 120,
                                        y: panel.position.y - panel.frame.height / 785 * 10)
@@ -245,20 +245,20 @@ extension XylemScene {
         waterMolecule.size = CGSize(width: XylemLowLayer.frame.width * 0.04,
                                     height: XylemLowLayer.frame.width * 0.04 / 78 * 68)
         waterMolecule.zPosition = CGFloat.random(min: 4, max: 6)
-        waterMolecule.zRotation = CGFloat.random(min: -CGFloat(M_PI), max: CGFloat(M_PI))
+        waterMolecule.zRotation = CGFloat.random(min: -CGFloat.pi, max: CGFloat.pi)
         Xylem.addChild(waterMolecule)
         
         //water Molecule Action
-        let fadeIn = SKAction.fadeInWithDuration(0.2)
+        let fadeIn = SKAction.fadeIn(withDuration: 0.2)
         let distance = XylemLowLayer.frame.height / 1589 * 1000
-        let move = SKAction.moveBy(CGVector(dx: 0, dy: distance), duration: 3)
-        let rotate = SKAction.rotateByAngle(CGFloat.random(min: -CGFloat(M_PI), max: CGFloat(M_PI)), duration: 3)
+        let move = SKAction.move(by: CGVector(dx: 0, dy: distance), duration: 3)
+        let rotate = SKAction.rotate(byAngle: CGFloat.random(min: -CGFloat.pi, max: CGFloat.pi), duration: 3)
         let moveRotate = SKAction.group([move, rotate])
-        let fadeOut = SKAction.fadeOutWithDuration(0.2)
+        let fadeOut = SKAction.fadeOut(withDuration: 0.2)
         let remove = SKAction.removeFromParent()
         
         let moveAndRemove = SKAction.sequence([fadeIn, moveRotate, fadeOut, remove])
-        waterMolecule.runAction(moveAndRemove)
+        waterMolecule.run(moveAndRemove)
     }
     
     func spawnPolymer() {
@@ -273,18 +273,18 @@ extension XylemScene {
         Xylem.addChild(polymer)
         
         //polymer Action
-        var fadeIn = SKAction.fadeInWithDuration(0.7)
+        var fadeIn = SKAction.fadeIn(withDuration: 0.7)
         let distance = XylemLowLayer.frame.height / 1589 * 1000
-        let move = SKAction.moveBy(CGVector(dx: 0, dy: distance), duration: 3)
-        let done = SKAction.runBlock({
+        let move = SKAction.move(by: CGVector(dx: 0, dy: distance), duration: 3)
+        let done = SKAction.run({
             self.atTop = true
         })
         let moveUp = SKAction.group([fadeIn, move, done])
-        let circle = UIBezierPath(roundedRect: CGRectMake(polymer.position.x - 5, polymer.position.y + distance, 10, 10), cornerRadius: 10)
+        let circle = UIBezierPath(roundedRect: CGRect(x: polymer.position.x - 5, y: polymer.position.y + distance, width: 10, height: 10), cornerRadius: 10)
         
-        let followCircle = SKAction.followPath(circle.CGPath, asOffset: false, orientToPath: false, duration: 5.0)
-        let action = SKAction.sequence([moveUp, SKAction.repeatActionForever(followCircle)])
-        polymer.runAction(action)
+        let followCircle = SKAction.follow(circle.cgPath, asOffset: false, orientToPath: false, duration: 5.0)
+        let action = SKAction.sequence([moveUp, SKAction.repeatForever(followCircle)])
+        polymer.run(action)
         
         top = polymer.position.y + distance + polymer.frame.height / 2
         stdDistance = top + XylemLowLayer.frame.height / 1589 * 525 - polymer.frame.height / 10
@@ -298,24 +298,24 @@ extension XylemScene {
             electron.position = CGPoint(x: polymer.position.x,
                                         y: -XylemLowLayer.frame.height / 1589 * 525 + distribution)
             electron.zPosition = 7
-            electron.hidden = true
+            electron.isHidden = true
             Xylem.addChild(electron)
             
-            fadeIn = SKAction.fadeInWithDuration(0.2)
+            fadeIn = SKAction.fadeIn(withDuration: 0.2)
             
-            let moveToTop = SKAction.moveToY(top, duration: Double((top - electron.position.y) / (stdDistance * amme * 0.5)))
-            let fadeOut = SKAction.fadeOutWithDuration(0.2)
+            let moveToTop = SKAction.moveTo(y: top, duration: Double((top - electron.position.y) / (stdDistance * amme * 0.5)))
+            let fadeOut = SKAction.fadeOut(withDuration: 0.2)
             let remove = SKAction.removeFromParent()
-            electron.runAction(SKAction.sequence([fadeIn, moveToTop, fadeOut, remove]))
+            electron.run(SKAction.sequence([fadeIn, moveToTop, fadeOut, remove]))
             
             if iterator == 10 {
                 lastElectron = electron
-                lastElectron.runAction(SKAction.sequence([fadeIn, moveToTop, fadeOut, remove]))
+                lastElectron.run(SKAction.sequence([fadeIn, moveToTop, fadeOut, remove]))
             }
         }
     }
     
-    func setRotateAngle(location: CGPoint) {
+    func setRotateAngle(_ location: CGPoint) {
         rotating = true
         firstTouchPoint = location
         refAngle = angleOfThreePoints(movePoint: firstTouchPoint,
