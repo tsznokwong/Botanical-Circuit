@@ -17,23 +17,6 @@
 		47570B761D1E13A6000CEE62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47570B741D1E13A6000CEE62 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		47570B7D1D1E13A6000CEE62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 47570B5C1D1E13A6000CEE62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47570B631D1E13A6000CEE62;
-			remoteInfo = "Botanical Circuit";
-		};
-		47570B881D1E13A6000CEE62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 47570B5C1D1E13A6000CEE62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47570B631D1E13A6000CEE62;
-			remoteInfo = "Botanical Circuit";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		473A1BF71D4B460200D42449 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		47570B641D1E13A6000CEE62 /* Botanical Circuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Botanical Circuit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,26 +28,10 @@
 		47570B721D1E13A6000CEE62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47570B751D1E13A6000CEE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47570B771D1E13A6000CEE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47570B7C1D1E13A6000CEE62 /* Botanical CircuitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Botanical CircuitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47570B871D1E13A6000CEE62 /* Botanical CircuitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Botanical CircuitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		47570B611D1E13A6000CEE62 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		47570B791D1E13A6000CEE62 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		47570B841D1E13A6000CEE62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				47570B641D1E13A6000CEE62 /* Botanical Circuit.app */,
-				47570B7C1D1E13A6000CEE62 /* Botanical CircuitTests.xctest */,
-				47570B871D1E13A6000CEE62 /* Botanical CircuitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,42 +93,6 @@
 			productReference = 47570B641D1E13A6000CEE62 /* Botanical Circuit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		47570B7B1D1E13A6000CEE62 /* Botanical CircuitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 47570B931D1E13A6000CEE62 /* Build configuration list for PBXNativeTarget "Botanical CircuitTests" */;
-			buildPhases = (
-				47570B781D1E13A6000CEE62 /* Sources */,
-				47570B791D1E13A6000CEE62 /* Frameworks */,
-				47570B7A1D1E13A6000CEE62 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				47570B7E1D1E13A6000CEE62 /* PBXTargetDependency */,
-			);
-			name = "Botanical CircuitTests";
-			productName = "Botanical CircuitTests";
-			productReference = 47570B7C1D1E13A6000CEE62 /* Botanical CircuitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		47570B861D1E13A6000CEE62 /* Botanical CircuitUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 47570B961D1E13A6000CEE62 /* Build configuration list for PBXNativeTarget "Botanical CircuitUITests" */;
-			buildPhases = (
-				47570B831D1E13A6000CEE62 /* Sources */,
-				47570B841D1E13A6000CEE62 /* Frameworks */,
-				47570B851D1E13A6000CEE62 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				47570B891D1E13A6000CEE62 /* PBXTargetDependency */,
-			);
-			name = "Botanical CircuitUITests";
-			productName = "Botanical CircuitUITests";
-			productReference = 47570B871D1E13A6000CEE62 /* Botanical CircuitUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,17 +106,7 @@
 					47570B631D1E13A6000CEE62 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = V4Y7Q6HKKR;
-						LastSwiftMigration = 0830;
-					};
-					47570B7B1D1E13A6000CEE62 = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = V4Y7Q6HKKR;
-						TestTargetID = 47570B631D1E13A6000CEE62;
-					};
-					47570B861D1E13A6000CEE62 = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = V4Y7Q6HKKR;
-						TestTargetID = 47570B631D1E13A6000CEE62;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -205,8 +124,6 @@
 			projectRoot = "";
 			targets = (
 				47570B631D1E13A6000CEE62 /* Botanical Circuit */,
-				47570B7B1D1E13A6000CEE62 /* Botanical CircuitTests */,
-				47570B861D1E13A6000CEE62 /* Botanical CircuitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -220,20 +137,6 @@
 				47570B761D1E13A6000CEE62 /* LaunchScreen.storyboard in Resources */,
 				47570B731D1E13A6000CEE62 /* Assets.xcassets in Resources */,
 				47570B711D1E13A6000CEE62 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		47570B7A1D1E13A6000CEE62 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		47570B851D1E13A6000CEE62 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,34 +154,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47570B781D1E13A6000CEE62 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		47570B831D1E13A6000CEE62 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		47570B7E1D1E13A6000CEE62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47570B631D1E13A6000CEE62 /* Botanical Circuit */;
-			targetProxy = 47570B7D1D1E13A6000CEE62 /* PBXContainerItemProxy */;
-		};
-		47570B891D1E13A6000CEE62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47570B631D1E13A6000CEE62 /* Botanical Circuit */;
-			targetProxy = 47570B881D1E13A6000CEE62 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		47570B6F1D1E13A6000CEE62 /* Main.storyboard */ = {
@@ -352,6 +228,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -401,6 +278,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -414,7 +292,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tsznok.Botanical-Circuit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -427,56 +306,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tsznok.Botanical-Circuit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
-			};
-			name = Release;
-		};
-		47570B941D1E13A6000CEE62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = "Botanical CircuitTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tsznok.Botanical-CircuitTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Botanical Circuit.app/Botanical Circuit";
-			};
-			name = Debug;
-		};
-		47570B951D1E13A6000CEE62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Botanical CircuitTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tsznok.Botanical-CircuitTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Botanical Circuit.app/Botanical Circuit";
-			};
-			name = Release;
-		};
-		47570B971D1E13A6000CEE62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = "Botanical CircuitUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tsznok.Botanical-CircuitUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Botanical Circuit";
-			};
-			name = Debug;
-		};
-		47570B981D1E13A6000CEE62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Botanical CircuitUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tsznok.Botanical-CircuitUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Botanical Circuit";
 			};
 			name = Release;
 		};
@@ -497,24 +329,6 @@
 			buildConfigurations = (
 				47570B911D1E13A6000CEE62 /* Debug */,
 				47570B921D1E13A6000CEE62 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		47570B931D1E13A6000CEE62 /* Build configuration list for PBXNativeTarget "Botanical CircuitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47570B941D1E13A6000CEE62 /* Debug */,
-				47570B951D1E13A6000CEE62 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		47570B961D1E13A6000CEE62 /* Build configuration list for PBXNativeTarget "Botanical CircuitUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47570B971D1E13A6000CEE62 /* Debug */,
-				47570B981D1E13A6000CEE62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
